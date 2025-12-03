@@ -10,11 +10,16 @@ material = "1.13.0"
 activity = "1.12.0"
 constraintlayout = "2.2.1"
 lottieV="4.2.1"
+firebaseAuth="24.0.0"
+firebaseDatabaseV="22.0.1"
+googleServiceV="4.4.4"
+
 
 
 [libraries]
 lottie={group="com.airbnb.android",name="lottie",version.ref="lottieV"}
-
+firebaseAuth={group="com.google.firebase",name="firebase-auth",version.ref="firebaseAuth"}
+firebaseDatabase={group="com.google.firebase",name="firebase-database",version.ref="firebaseDatabaseV"}
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -27,4 +32,6 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+googleService={id="com.google.gms.google-services", version.ref= "googleServiceV"}
+
 

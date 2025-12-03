@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias (libs.plugins.googleService)
+
+
 }
 
 android {
@@ -35,10 +38,15 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures{
+        viewBinding=true //evita escribir el findbyid
+    }
 }
 
 dependencies {
     implementation(libs.lottie)//Animacion
+    implementation(libs.firebaseAuth) //Autenticacion con firebase
+    implementation(libs.firebaseDatabase)//Base de Datos
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

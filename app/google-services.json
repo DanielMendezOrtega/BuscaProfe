@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "600106329247",
+    "project_id": "tienda-virtual-f2024",
+    "storage_bucket": "tienda-virtual-f2024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600106329247:android:005c121d4c6321dc482eaa",
+        "android_client_info": {
+          "package_name": "com.dmo.buscaprofe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwsyB2QFIigPUxLdQ8o5Jg3WTcY3-5sR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600106329247:android:76bd966be79665fb482eaa",
+        "android_client_info": {
+          "package_name": "com.dmo.tienda_virtual"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwsyB2QFIigPUxLdQ8o5Jg3WTcY3-5sR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

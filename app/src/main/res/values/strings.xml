@@ -3,4 +3,23 @@
     <string name="profesor">Profesor</string>
     <string name="alumno">Alumno</string>
 
+    <!--Registro-->
+    <string name="txtRegistroAlumno">Registrar Alumno</string>
+    <string name="etNombreA">Nombre Alumno</string>
+    <string name="etEmailA">Email</string>
+    <string name="etPassword">Password</string>
+    <string name="etCPassword">Confirmar Password</string>
+    <string name="btnRegistrar">REGISTRAR</string>
+    <!--Login-->
+    <string name="txtLoginalumno">Login de Alumno</string>
+    <string name="etEmail">Email</string>
+    <string name="btnLogin">INGRESAR</string>
+    <string name="txtNoCuenta">¿No Tienes Cuenta?</string>
+    <string name="tvRegistrarme">Registrarme</string>
+
+
+
+
+
+
 </resources>

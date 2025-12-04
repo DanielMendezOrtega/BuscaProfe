@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.dmo.buscaprofe"
+        applicationId = "com.dmo.buscaprofe2"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -45,8 +45,9 @@ android {
 
 dependencies {
     implementation(libs.lottie)//Animacion
-    implementation(libs.firebaseAuth) //Autenticacion con firebase
     implementation(libs.firebaseDatabase)//Base de Datos
+    implementation(libs.firebaseAuth) //Autenticacion con firebase
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

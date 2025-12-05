@@ -1,27 +1,16 @@
 package com.dmo.buscaprofe.model
 
-class Alumno (
+data class Alumno(
 
-    nombre: String? = null,
-    email: String? = null,
-    edad: Int? = null,
-    dni: String? = null,
-    telefono: String? = null,
-    fechaRegistro: String? = null,
-    ubicacion: String? = null,
-    imagenUrl: String? = null,
-    var asignaturasAyuda: List<String>? = null
-//cuando una clase hereda de otra , puede llamar al constructor de la clase padre
-): Usuario(
-    nombre,
-    email,
-    edad,
-    "Alumno",
-    dni,
-    telefono,
-    fechaRegistro,
-    ubicacion,
-    imagenUrl){
+    var nombre: String = "",
+    var email: String = "",
+    var edad: Int = 0,
+    var tipo: String = "Alumno",
+    var dni: String = "",
+    var telefono: String = "",
+    var fechaRegistro: String = "",
+    var ubicacion: String = "",
+    var imagenUrl: String = "",
+    var asignaturasAyuda: List<String> = emptyList()
+)
 
-    constructor(): this("","",0,"","","","","",emptyList())
-}

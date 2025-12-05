@@ -15,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuscaProfe">
         <activity
+            android:name=".view.commont.MainActivityProfesor"
+            android:exported="false" />
+        <activity
+            android:name=".controller.RegistroProfesorActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.commont.MainActivityAlumno"
             android:exported="false" />
         <activity

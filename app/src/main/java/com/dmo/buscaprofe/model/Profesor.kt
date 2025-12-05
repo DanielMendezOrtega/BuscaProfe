@@ -1,22 +1,14 @@
 package com.dmo.buscaprofe.model
 
-class Profesor(
-    nombre: String? = null,
-    email: String? = null,
-    edad: Int? = null,
-    dni: String? = null,
-    telefono: String? = null,
-    fechaRegistro: String? = null,
-    ubicacion: String? = null,
-    imagenUrl: String? = null,
+data class Profesor(
+    var nombre: String = "",
+    var email: String = "",
+    var edad: Int = 0,
+    var tipo: String = "Profesor",
+    var dni: String = "",
+    var telefono: String = "",
+    var fechaRegistro: String = "",
+    var ubicacion: String = "",
+    var imagenUrl: String = "",
     var asignaturasImpartir: List<String>? = null
-) : Usuario(
-    nombre,
-    email,
-    edad,
-    "Profesor",
-    dni,
-    telefono,
-    fechaRegistro,
-    ubicacion,
-    imagenUrl)
+)

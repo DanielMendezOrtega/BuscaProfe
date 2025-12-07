@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504802840294",
+    "project_id": "buscaprofe-a1338",
+    "storage_bucket": "buscaprofe-a1338.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504802840294:android:273ce5b0b0bea9ab8cf527",
+        "android_client_info": {
+          "package_name": "com.dmo.buscaprofe2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG1SzEax4qgOXW0-3-jBy6FEaTu9lJ_6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
